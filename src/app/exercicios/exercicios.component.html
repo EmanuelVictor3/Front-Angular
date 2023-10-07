@@ -1,0 +1,26 @@
+<h3>Primeira parte</h3>
+<p>{{frase}}</p>
+
+<h3>Segunda parte</h3>
+<a href="{{link}}">Meu github</a><br>
+
+<h3>Terceira parte</h3>
+<p  (click)="changeColor()" [ngStyle]="{'background-color': color, 'color':colorText}">paragrafo que muda de cor</p>
+
+<h3>Quarta parte</h3>
+<select #select (change)="setTexto(select.value)" >
+    <option value="A vida é cheia de surpresas, abra-se para as possibilidades.">primeiro</option>
+    <option value="A persistência é o caminho do êxito.">segundo</option>
+    <option value="Cada dia é uma oportunidade para ser uma versão melhor de si mesmo.">terceiro</option>
+    <option value="O segredo para avançar é começar.">quarto</option>
+
+</select>
+
+<p>{{textoUnico}}</p>
+
+<h2>Integrantes da equipe</h2>
+
+    <li>Dani Morais - 01503613</li>
+    <li>Emanuel Victor - 01518804</li>
+    <li>Iago Pires - 01565829</li>
+    <li>Nicolly Mayara - 01553411</li>
